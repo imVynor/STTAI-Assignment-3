@@ -1,0 +1,33 @@
+=== LLM Generated Reviews Diversity Report ===
+
+Total reviews generated: 221
+Reviews after deduplication & filtering: 221
+Generator: OpenRouter API (Mistral-7B)
+
+Self-BLEU Metrics (Per Sentiment Class):
+------------------------------------------------------------
+
+Sentiment: Positive
+  Count:              103
+  Self-BLEU Score:   0.6649
+  Quality Flag:      LOW
+  Threshold:         0.70
+
+Sentiment: Negative
+  Count:              75
+  Self-BLEU Score:   0.6324
+  Quality Flag:      LOW
+  Threshold:         0.70
+
+Sentiment: Neutral
+  Count:              43
+  Self-BLEU Score:   0.6318
+  Quality Flag:      LOW
+  Threshold:         0.70
+
+Overall Average Self-BLEU: 0.6431
+
+Sentiment Consistency Check:
+------------------------------------------------------------
+Total mismatches: 148
+Accuracy:         33.03%

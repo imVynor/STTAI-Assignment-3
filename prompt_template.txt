@@ -1,1 +1,22 @@
-You are a movie review generator. ...
+You are a movie review generator.
+
+Generate exactly {batch_size} realistic movie reviews with sentiment: {sentiment}.
+
+Rules:
+- Ensure sentiment is clearly {sentiment}
+- Vary length and style
+- Use different movie names
+- Avoid repetition
+- Output ONLY JSON array
+
+Format:
+[
+  {{"review": "...", "sentiment": "{sentiment}", "movie": "..."}}
+]
+
+Examples:
+[
+{examples}
+]
+
+Now generate {batch_size} reviews in JSON format only:
